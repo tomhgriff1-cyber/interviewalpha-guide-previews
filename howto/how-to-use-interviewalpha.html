@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>How to use InterviewAlpha (step by step) | InterviewAlpha Guides (Preview)</title>
+  <style>
+    :root {
+      --bg: #f7f7f9;
+      --surface: #ffffff;
+      --text: #1a1a22;
+      --muted: #5c5c6b;
+      --border: #e6e6ee;
+      --accent: #6b4eff;
+      --accent-soft: #f0ecff;
+      --accent-dark: #5538e0;
+      --preview: #fff8e6;
+      --preview-border: #f0d78c;
+      --preview-text: #6b5a1e;
+      --radius: 12px;
+      --shadow: 0 1px 2px rgba(20, 16, 40, 0.04), 0 8px 24px rgba(20, 16, 40, 0.06);
+      --font: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: var(--font);
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.65;
+      font-size: 17px;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: var(--accent-dark); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+    a:hover { color: var(--accent); }
+    .preview-banner {
+      background: var(--preview);
+      border-bottom: 1px solid var(--preview-border);
+      color: var(--preview-text);
+      text-align: center;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      padding: 10px 16px;
+    }
+    .site-nav {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 14px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .site-nav .brand {
+      font-weight: 700;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: -0.02em;
+    }
+    .site-nav .brand span { color: var(--accent); }
+    .site-nav .meta {
+      font-size: 14px;
+      color: var(--muted);
+    }
+    .wrap {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 40px 20px 80px;
+    }
+    article h1 {
+      font-size: clamp(1.75rem, 4vw, 2.25rem);
+      line-height: 1.2;
+      letter-spacing: -0.03em;
+      margin: 0 0 1rem;
+      font-weight: 750;
+    }
+    article h2 {
+      font-size: 1.35rem;
+      letter-spacing: -0.02em;
+      margin: 2.4rem 0 0.75rem;
+      font-weight: 700;
+    }
+    article h3 {
+      font-size: 1.1rem;
+      margin: 1.8rem 0 0.6rem;
+      font-weight: 650;
+    }
+    article p { margin: 0 0 1.05rem; color: var(--text); }
+    article .lede { color: var(--muted); font-size: 1.05rem; }
+    article ul, article ol {
+      margin: 0 0 1.2rem;
+      padding-left: 1.35rem;
+    }
+    article li { margin: 0.4rem 0; }
+    article li strong { font-weight: 650; }
+    .step-num {
+      display: inline-block;
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--accent);
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      margin-bottom: 0.25rem;
+    }
+    figure {
+      margin: 1.4rem 0 1.8rem;
+      padding: 0;
+    }
+    figure img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow);
+      background: #fff;
+    }
+    figcaption {
+      margin-top: 0.65rem;
+      font-size: 0.9rem;
+      color: var(--muted);
+      text-align: center;
+      line-height: 1.45;
+    }
+    .note {
+      background: var(--accent-soft);
+      border: 1px solid #ddd4ff;
+      border-radius: var(--radius);
+      padding: 0.9rem 1.1rem;
+      margin: 1.1rem 0 1.4rem;
+      font-size: 0.95rem;
+    }
+    .note strong { color: var(--accent-dark); }
+    .cta-box {
+      background: var(--accent-soft);
+      border: 1px solid #ddd4ff;
+      border-radius: var(--radius);
+      padding: 1.15rem 1.25rem;
+      margin: 1.6rem 0;
+    }
+    .cta-box p { margin: 0 0 0.5rem; }
+    .cta-box p:last-child { margin: 0; }
+    .cta-box a { font-weight: 600; }
+    .dev-note {
+      margin-top: 2.5rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+    footer.page-foot {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 0 20px 48px;
+      color: var(--muted);
+      font-size: 0.88rem;
+    }
+    @media (max-width: 640px) {
+      .wrap, footer.page-foot { padding-left: 16px; padding-right: 16px; }
+      body { font-size: 16px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="preview-banner">PREVIEW - not live. Product how-to for first-time demo users. Approve with Marketing / Product.</div>
+  <nav class="site-nav" aria-label="Preview navigation">
+    <a class="brand" href="#">Interview<span>Alpha</span> Guides</a>
+    <span class="meta">How-to · Demo walkthrough</span>
+  </nav>
+  <main class="wrap">
+    <article>
+      <h1>How to use InterviewAlpha (step by step)</h1>
+      <p class="lede">A calm walkthrough of the interactive demo. No account needed. Edits stay in this browser for the demo session.</p>
+
+      <h2>What you’ll do</h2>
+      <p>In about ten minutes you will:</p>
+      <ul>
+        <li>Open a sample <strong>Board</strong> (or build a small one from scratch) and see how applications move through stages</li>
+        <li>Add a labelled <strong>CV version</strong> in the vault and link it to a role</li>
+        <li>Check <strong>Insights</strong> and <strong>Today</strong> so you know what’s working and what to do next</li>
+      </ul>
+      <p>Short coach tips appear in the product as you go. This guide does not repeat them; use them when they show up.</p>
+
+      <h2><span class="step-num">Step 1</span><br />Open the demo</h2>
+      <ol>
+        <li>From the homepage, choose <strong>Try the interactive demo</strong>.</li>
+        <li>You land on <code>/demo</code> with two paths:
+          <ul>
+            <li><strong>Explore a full sample board</strong> - seeded applications, CV versions, and Insights ready to browse</li>
+            <li><strong>Build from scratch (guided)</strong> - empty board with short coach tips (capped at 5 applications and 2 CVs)</li>
+          </ul>
+        </li>
+        <li>Pick one. You can change later with <strong>Switch demo</strong> in the nav.</li>
+      </ol>
+      <figure>
+        <img src="images/01-homepage-or-demo-entry.png" alt="Demo entry: choose full sample board or build from scratch" width="1200" height="800" />
+        <figcaption>Figure 1. Demo entry: pick a full sample board or a guided empty board.</figcaption>
+      </figure>
+
+      <h2><span class="step-num">Step 2</span><br />Tour the Board</h2>
+      <p>The top nav is: <strong>Today</strong> · <strong>Board</strong> · <strong>Insights</strong> · <strong>CV vault</strong> · <strong>Switch demo</strong>.</p>
+      <p>Open <strong>Board</strong>. Applications sit as cards in stage columns (for example Wishlist, Applied, Response, Interview, Offer). Each card shows company, role, tags, and a next step when one is set.</p>
+      <p>Use search and <strong>Filters</strong> when the board gets busy. The purple <strong>+ New application</strong> button is how you add roles.</p>
+      <figure>
+        <img src="images/02-board-overview.png" alt="Pipeline board with stage columns and application cards" width="1200" height="800" />
+        <figcaption>Figure 2. The Board: applications as cards across pipeline stages.</figcaption>
+      </figure>
+
+      <h2><span class="step-num">Step 3</span><br />Add an application</h2>
+      <ol>
+        <li>On the Board, select <strong>+ New application</strong>.</li>
+        <li>Fill in the two required fields: <strong>Company</strong> and <strong>Role</strong>.</li>
+        <li>Optionally add category, effort, job board, opportunity type, linked CV, job URL, tags, and a next action.</li>
+        <li>Save with either:
+          <ul>
+            <li><strong>Save to wishlist</strong> (not applied yet), or</li>
+            <li><strong>Already applied</strong> (sends it into the Applied stage)</li>
+          </ul>
+        </li>
+      </ol>
+      <p>Keep the first pass light. You can enrich the card later.</p>
+      <figure>
+        <img src="images/03-add-or-move-application.png" alt="New application form with Company, Role, and save options" width="1200" height="800" />
+        <figcaption>Figure 3. New application form. Company and Role are required; save to wishlist or mark as already applied.</figcaption>
+      </figure>
+
+      <h2><span class="step-num">Step 4</span><br />Open an application and link a CV</h2>
+      <p>Select any card to open its detail view. You’ll see stage, next action, category, job board, tags, timeline, and a <strong>Linked CV</strong> section.</p>
+      <p>To connect a version:</p>
+      <ol>
+        <li>Open the application.</li>
+        <li>Choose a labelled CV from the vault (or add one first in Step 5).</li>
+        <li>Confirm the link so Insights can attribute outcomes to that version.</li>
+      </ol>
+      <figure>
+        <img src="images/03b-application-detail.png" alt="Application detail for Canva with linked CV and next action" width="1200" height="800" />
+        <figcaption>Figure 4. Application detail: stage, next action, and linked CV version.</figcaption>
+      </figure>
+
+      <h2><span class="step-num">Step 5</span><br />Add a CV version in the vault</h2>
+      <p>Open <strong>CV vault</strong>. Versions are organised by family (for example software developer, lead QA). Each version has a label, a change note, and optional <strong>Current</strong> status. Interview rates appear per version when applications are linked.</p>
+      <div class="note">
+        <strong>Honest demo note:</strong> file uploads are disabled here. You’ll see “File uploads are disabled in the demo.” / upload deferred. You still create labelled versions and change notes so the board and Insights work.
+      </div>
+      <p>To add a version:</p>
+      <ol>
+        <li>Open <strong>CV vault</strong>.</li>
+        <li>In <strong>Add CV version</strong>, enter a clear <strong>Version label</strong> (for example <code>My software developer CV - v3</code>).</li>
+        <li>Write a short <strong>Change note</strong> (what changed vs the previous version).</li>
+        <li>Optionally tick <strong>Mark as Current / Master for this family</strong>.</li>
+        <li>Select <strong>Add version</strong>.</li>
+      </ol>
+      <p>Then link that version from an application’s detail view (Step 4).</p>
+      <figure>
+        <img src="images/04-cv-vault.png" alt="CV vault listing labelled versions with interview rates" width="1200" height="800" />
+        <figcaption>Figure 5. CV vault: labelled versions, change notes, Current badge, and per-version rates.</figcaption>
+      </figure>
+      <figure>
+        <img src="images/05-add-cv-version.png" alt="Add CV version form showing uploads disabled in the demo" width="1200" height="800" />
+        <figcaption>Figure 6. Add CV version: label and change note only; file upload is disabled in the demo.</figcaption>
+      </figure>
+
+      <h2><span class="step-num">Step 6</span><br />Check Insights (CV performance)</h2>
+      <p>Open <strong>Insights</strong>. Choose a period (for example This week). The <strong>CV performance</strong> table lists each linked version with:</p>
+      <ul>
+        <li>Applications</li>
+        <li>Responses</li>
+        <li>Interviews</li>
+        <li>Interview rate</li>
+        <li>Edge</li>
+      </ul>
+      <p>Interview rate uses clear denominators (interviews ÷ applications), so you compare versions fairly rather than by raw totals alone.</p>
+      <p>Below that, <strong>What worked</strong> highlights early leaders: best CV, best job board, and strongest opportunity type for the period.</p>
+      <figure>
+        <img src="images/06-insights-cv-performance.png" alt="Insights CV performance table with rates and Edge" width="1200" height="800" />
+        <figcaption>Figure 7. Insights: CV performance for the selected period.</figcaption>
+      </figure>
+      <figure>
+        <img src="images/06b-insights-what-worked.png" alt="What worked cards for best CV, job board, and opportunity type" width="1200" height="800" />
+        <figcaption>Figure 8. What worked: early leaders for CV, source, and opportunity type.</figcaption>
+      </figure>
+
+      <h2><span class="step-num">Step 7</span><br />Use Today for next actions</h2>
+      <p>Open <strong>Today</strong>. Next steps are grouped so you can act without hunting the board:</p>
+      <ul>
+        <li><strong>Follow up</strong> (overdue and due today)</li>
+        <li><strong>Upcoming</strong> (for example interviews)</li>
+        <li><strong>Deadline</strong></li>
+        <li><strong>Stale</strong></li>
+        <li><strong>Missing CV</strong></li>
+      </ul>
+      <p>Select a row to jump back to that application. Treat Today as your daily shortlist; keep the Board for the full picture.</p>
+      <figure>
+        <img src="images/07-today-or-next-actions.png" alt="Today page with Follow up and Upcoming next-step groups" width="1200" height="800" />
+        <figcaption>Figure 9. Today: next steps grouped by Follow up, Upcoming, and related cues.</figcaption>
+      </figure>
+
+      <h2>Short tips</h2>
+      <ul>
+        <li>Capture the role the day you apply, then refresh the next step when something moves.</li>
+        <li>Prefer clear CV labels and change notes over perfect files in the demo; linking is what powers Insights.</li>
+        <li>Use <strong>Switch demo</strong> if you want to reset between sample and guided paths.</li>
+        <li>Coach tips in the product are short on purpose; read them when they appear, then close them.</li>
+      </ul>
+
+      <h2>Try the demo</h2>
+      <div class="cta-box">
+        <p>Ready to click through? Open the interactive demo from the homepage (<strong>Try the interactive demo</strong>), pick a sample board or the guided path, and walk Steps 2-7 once.</p>
+        <p>Ten calm minutes is enough to see the loop: Board → CV vault → Insights → Today.</p>
+      </div>
+
+      <div class="dev-note">
+        <h3>Note for Dev (suggested URL)</h3>
+        <p>Suggested live path when this guide ships: <code>/guides/how-to-use-interviewalpha</code> (preferred) or <code>/help/how-to-use</code>. Keep the slug stable for bookmarks and in-product help links. Serve the markdown or a rendered HTML page with images under a sibling <code>images/</code> folder (same relative paths as this draft: <code>images/01-…</code> through <code>images/07-…</code>). Mark the page clearly as demo-accurate so we do not imply accounts, cloud sync, payments, or real file upload.</p>
+      </div>
+    </article>
+  </main>
+  <footer class="page-foot">
+    InterviewAlpha product how-to preview · UK English · Demo-accurate (no auth / cloud sync / Stripe / file upload claims)
+  </footer>
+</body>
+</html>
