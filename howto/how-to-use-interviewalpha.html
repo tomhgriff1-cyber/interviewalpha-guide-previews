@@ -112,6 +112,10 @@
     figure img {
       display: block;
       width: 100%;
+      max-width: 100%;
+      aspect-ratio: 1200 / 720;
+      object-fit: cover;
+      object-position: top center;
       height: auto;
       border-radius: var(--radius);
       border: 1px solid var(--border);
@@ -165,7 +169,7 @@
   </style>
 </head>
 <body>
-  <div class="preview-banner">PREVIEW v2 - next-action dropdown + reshot screenshots. Not live until Tom approves.</div>
+  <div class="preview-banner">PREVIEW v3 - uniform 1200×720 screenshots + next-action section. Not live until Tom approves.</div>
   <nav class="site-nav" aria-label="Preview navigation">
     <a class="brand" href="#">Interview<span>Alpha</span> Guides</a>
     <span class="meta">How-to · Demo walkthrough</span>
@@ -225,7 +229,7 @@
       <p>Keep the first pass light. You can enrich the card later.</p>
       <figure>
         <img src="images/03-add-or-move-application.png" alt="New application form with Company, Role, and save options" width="1200" height="800" />
-        <figcaption>Figure 3. New application form (two panels): required fields on the left; More details with Next action suggestions open on the right.</figcaption>
+        <figcaption>Figure 3. New application form with More details open and Next action suggestions visible.</figcaption>
       </figure>
 
       <h3>Set a Next action (dropdown)</h3>
