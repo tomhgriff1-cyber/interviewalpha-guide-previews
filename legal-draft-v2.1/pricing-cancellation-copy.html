@@ -1,0 +1,178 @@
+<!doctype html><html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow"><title>DRAFT: Pricing and cancellation copy | InterviewAlpha</title><style>
+:root{--g:#214D3C;--g2:#2C6A4A;--gl:#E8F0EB;--ink:#172D26;--mut:#5B6660;--line:#D7E6DC}
+*{box-sizing:border-box}body{margin:0;font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:#1f2a25;background:#F7F8F6}
+.banner{background:#7A2E0E;color:#fff;text-align:center;padding:10px 16px;font-weight:600;font-size:14px;position:sticky;top:0;z-index:5}
+header{background:#fff;border-bottom:1px solid var(--line)}header .in{max-width:780px;margin:0 auto;padding:14px 20px;display:flex;gap:18px;align-items:center;flex-wrap:wrap}
+.logo{font-weight:700;color:var(--g);text-decoration:none;margin-right:auto}header nav a{color:var(--mut);text-decoration:none;font-size:14px}header nav a.on,header nav a:hover{color:var(--g)}
+main{max-width:780px;margin:28px auto 60px;padding:32px 36px;background:#fff;border:1px solid var(--line);border-radius:16px}
+@media(max-width:640px){main{margin:0;border-radius:0;padding:24px 18px}}
+h1{color:var(--ink);font-size:30px;line-height:1.2;margin:0 0 12px}h2{color:var(--g);font-size:20px;margin:34px 0 8px;padding-top:6px;border-top:1px solid var(--gl)}h3{color:var(--ink);font-size:16px;margin:22px 0 6px}
+a{color:var(--g2)}table{border-collapse:collapse;width:100%;font-size:14.5px;margin:12px 0}th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}th{background:var(--gl);color:var(--ink)}
+blockquote{margin:12px 0;padding:12px 16px;background:var(--gl);border-left:4px solid var(--g);border-radius:6px}blockquote p{margin:4px 0}
+code{background:#F1F3F1;padding:1px 5px;border-radius:4px;font-size:13.5px}li{margin:3px 0}
+.foot{margin-top:40px;padding:14px 16px;background:#FFF7E8;border:1px solid #F1D9A8;border-radius:10px;font-size:14px}
+.changed{margin:18px 0;padding:14px 18px;background:var(--gl);border:1px solid var(--line);border-left:4px solid var(--g);border-radius:10px;font-size:15px}.changed ul{margin:6px 0 0;padding-left:20px}
+.cards{display:grid;gap:12px;margin-top:18px}.cards a{display:block;padding:16px 18px;border:1px solid var(--line);border-radius:12px;text-decoration:none;color:var(--ink)}.cards a:hover{border-color:var(--g);background:var(--gl)}.cards b{color:var(--g)}
+</style></head><body>
+<div class="banner">DRAFT v2.1 for review, not published. Not legal advice; pending Tom's approval and solicitor review.</div>
+<header><div class="in"><a class="logo" href="index.html">InterviewAlpha</a><nav style="display:flex;gap:14px;flex-wrap:wrap"><a href="index.html">Overview</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a><a href="pricing-cancellation-copy.html" class=on>Pricing and cancellation copy</a><a href="review-notes.html">Review notes</a></nav></div></header>
+<main><h1>Pricing and cancellation microcopy</h1>
+<p><strong>Effective date:</strong> [date]<br />
+<strong>Last updated:</strong> [date]</p>
+<p>UI copy for the Account page, upgrade flow, Checkout and cancellation. Square brackets are variables or placeholders. Plan names: <strong>Free</strong> and <strong>Paid</strong> (the code in <code>src/lib/plans.ts</code> and the sign-up page still uses the old plan name; rename when billing is built). Price is always shown exactly as <strong>$14.99/month including tax (your local currency may be shown at checkout)</strong>. Monthly only. Buttons don't repeat the price, so it always appears in full nearby.</p>
+<h2>1. Account page: plan card</h2>
+<h3>Free (current plan)</h3>
+<p><strong>Title:</strong> Free plan<br />
+<strong>Body:</strong> Free lets you try InterviewAlpha with up to 5 applications in total (open or closed) and up to 2 CV Versions at a time. Insights, Copy summary, Print and data export are all included.<br />
+<strong>Usage line:</strong> [n] of 5 applications, [n] of 2 CV Versions<br />
+<strong>Button:</strong> Upgrade to Paid<br />
+<strong>Small print under button:</strong> $14.99/month including tax (your local currency may be shown at checkout). Cancel any time. Your data stays yours on every plan.</p>
+<h3>Paid (active)</h3>
+<p><strong>Title:</strong> Paid plan<br />
+<strong>Body:</strong> Unlimited applications and CV Versions (fair use applies).<br />
+<strong>Billing line:</strong> $14.99/month including tax (your local currency may be shown at checkout). Next billing date: [date].<br />
+<strong>Buttons:</strong> Manage billing (secondary, opens the Stripe billing portal) · Cancel plan (text button)<br />
+<strong>Small print:</strong> Manage billing lets you update your card and see receipts. Charges show on your statement as LINK.COM* INTERVIEWALPHA.</p>
+<h3>Paid (cancelled, active until next billing date)</h3>
+<p><strong>Title:</strong> Paid until [next billing date]<br />
+<strong>Body:</strong> Your plan won't renew. You keep Paid until [next billing date], then your account moves to Free. Nothing is deleted.<br />
+<strong>Button:</strong> Keep Paid (resumes your plan; your next payment would be on [next billing date])</p>
+<h3>Paid (payment problem)</h3>
+<p><strong>Title:</strong> Payment problem<br />
+<strong>Body:</strong> We couldn't take your payment for Paid. You still have Paid while Stripe tries again. Please update your card to keep it. If the payment can't be taken, your account will move to Free. Nothing will be deleted.<br />
+<strong>Button:</strong> Update payment details</p>
+<h3>Paid (payment disputed)</h3>
+<p>Shown only if a payment is disputed. No automatic downgrade.</p>
+<p><strong>Body:</strong> There's a dispute on one of your payments. Your Paid plan stays active while we look into it. If you think this is a mistake, reply to our email or contact [contact email].</p>
+<h2>2. Billing questions (FAQ lines for the Account page and help)</h2>
+<ul>
+<li><strong>What will I see on my card statement?</strong> <strong>LINK.COM* INTERVIEWALPHA</strong>. Link is Stripe's payment service, which sells InterviewAlpha Paid for us.</li>
+<li><strong>Who sends my receipt?</strong> Link, by email, each month. You can also see receipts in Manage billing or at link.com.</li>
+<li><strong>Is tax included?</strong> Yes: $14.99/month including tax (your local currency may be shown at checkout). Stripe, as the seller (merchant of record), handles the tax.</li>
+<li><strong>Who handles refunds and disputes?</strong> Stripe, as merchant of record, may issue refunds or settle disputes itself under its own terms. This doesn't affect your statutory rights.</li>
+<li><strong>If I cancel, do I get a refund?</strong> No refund for part months. You keep Paid until your next billing date. In your first 14 days you can cancel for a refund, minus a proportionate amount for the days you've used.</li>
+</ul>
+<h2>3. Upgrade button and pre-checkout summary</h2>
+<p>Shown on our page before sending the user to Stripe Checkout.</p>
+<p><strong>Button (Account page, Free limit messages):</strong> Upgrade to Paid</p>
+<p><strong>Summary panel title:</strong> Upgrade to Paid</p>
+<p><strong>Summary body:</strong></p>
+<ul>
+<li>Paid plan: <strong>$14.99/month including tax (your local currency may be shown at checkout)</strong></li>
+<li>Unlimited applications and CV Versions (fair use applies)</li>
+<li>Billed today, then monthly on the same date until you cancel</li>
+<li>Sold through Link, Stripe's payment service. Your statement will show <strong>LINK.COM* INTERVIEWALPHA</strong> and receipts come from Link.</li>
+<li>Cancel any time from your Account page. You keep Paid until your next billing date. No refunds for part months.</li>
+<li>You have 14 days to change your mind. If you cancel in that time, you'll be refunded, minus a proportionate amount for the days you've had Paid.</li>
+</ul>
+<p><strong>Consent checkbox (required, unticked by default):</strong></p>
+<blockquote>
+<p>[ ] I want Paid to start straight away. I understand that if I cancel within 14 days, I'll get a refund minus a proportionate amount for the days I've used it.</p>
+</blockquote>
+<p><strong>Terms checkbox (required):</strong></p>
+<blockquote>
+<p>[ ] I agree to the <a href="terms.html">Terms of Service</a> and have read the <a href="privacy.html">Privacy Policy</a>.</p>
+</blockquote>
+<p><strong>Primary button:</strong> Continue to secure payment<br />
+<strong>Under button:</strong> You'll pay on a secure Stripe page. Paid is sold through Link (Stripe), which handles payment and tax. We never see your card number.</p>
+<p><strong>If using Stripe Checkout's own consent box instead</strong> (<code>consent_collection.terms_of_service</code> with <code>custom_text.terms_of_service_acceptance</code>), combine into one line:</p>
+<blockquote>
+<p>I agree to the <a href="https://interviewalpha.app/terms">Terms</a> and want Paid to start straight away. If I cancel within 14 days, I'll get a refund minus a proportionate amount for the days I've used it.</p>
+</blockquote>
+<p><strong>Stripe Checkout <code>custom_text.submit</code> (above the Pay button):</strong></p>
+<blockquote>
+<p>$14.99/month including tax (your local currency may be shown at checkout) until you cancel. Shows on your statement as LINK.COM* INTERVIEWALPHA. Cancel any time from your InterviewAlpha Account page.</p>
+</blockquote>
+<h2>4. After payment</h2>
+<p><strong>Success banner:</strong> You're on Paid. Unlimited applications and CV Versions are now unlocked.</p>
+<p><strong>Confirmation email from InterviewAlpha (the durable record of the 14-day consent; Link sends the receipt separately):</strong></p>
+<blockquote>
+<p><strong>Subject:</strong> Your InterviewAlpha Paid plan<br />
+Thanks for upgrading. Your Paid plan started on [date] and costs $14.99/month including tax (your local currency may be shown at checkout). Your next billing date is [date], and it renews monthly until you cancel.<br />
+Your receipt comes from Link, Stripe's payment service, and your statement will show LINK.COM* INTERVIEWALPHA.<br />
+You asked for Paid to start straight away. You can still cancel within 14 days (until [date + 14]) for a refund, minus a proportionate amount for the days you've used it.<br />
+After that, you can cancel any time and keep Paid until your next billing date. We don't refund part months.<br />
+Manage or cancel your plan: [Account link]<br />
+Terms of Service: [link] (a copy of the terms in force today is [attached / at this link])<br />
+InterviewAlpha, [postal address], [contact email]</p>
+</blockquote>
+<h2>5. Cancellation confirmation dialog</h2>
+<h3>Standard (more than 14 days after first purchase)</h3>
+<p><strong>Title:</strong> Cancel your Paid plan?<br />
+<strong>Body:</strong> Your plan won't renew. You'll keep Paid until your next billing date, [date]. There's no refund for the rest of the month.<br />
+For example, if you're billed on 1 October and cancel on 15 October, you keep Paid until 1 November.<br />
+After [date] your account moves to Free. Everything you've added stays, and you can still view, edit and export it. Free allows 5 applications in total, so if you have more than that you won't be able to add new ones until you resubscribe.<br />
+<strong>Buttons:</strong> Cancel plan (destructive style) · Keep Paid</p>
+<h3>Within 14 days of first purchase</h3>
+<p><strong>Title:</strong> Cancel your Paid plan?<br />
+<strong>Body:</strong> You're within 14 days of starting Paid, so you can cancel now for a refund of [amount], which is what you paid minus a proportionate amount for the [n] days you've had Paid. The refund comes from Link (Stripe) to your original payment method. Your account moves to Free straight away. Nothing is deleted.<br />
+<strong>Buttons:</strong> Cancel and refund (destructive style) · Keep Paid<br />
+<strong>Text link:</strong> Or keep Paid until [next billing date] and cancel with no refund</p>
+<h2>6. Post-cancel banners</h2>
+<h3>Shown until the next billing date</h3>
+<blockquote>
+<p>Your Paid plan is cancelled. You have Paid until your next billing date, [date], then your account moves to Free. You won't be charged again, and nothing will be deleted. [Keep Paid]</p>
+</blockquote>
+<h3>Shown once after moving to Free</h3>
+<blockquote>
+<p>You're now on the Free plan. All your applications and CV Versions are still here, and you can view, edit and export them. [Upgrade to Paid]</p>
+</blockquote>
+<h3>After a 14-day refund</h3>
+<blockquote>
+<p>Your Paid plan is cancelled and a refund of [amount] is on its way from Link. It can take 5 to 10 working days to reach your account. You're now on the Free plan.</p>
+</blockquote>
+<h2>7. Downgrade and over-limit messages</h2>
+<h3>Banner when over the Free limits</h3>
+<p><strong>Title:</strong> Your data is safe<br />
+<strong>Body:</strong> You have [n] applications and [n] CV Versions. Free is for trying InterviewAlpha, so it includes 5 applications in total (open or closed, including Rejected and Withdrawn) and up to 2 CV Versions at a time. Everything you've added is still here: you can view it, edit it and export it at any time. To add new applications, resubscribe to Paid.<br />
+<strong>Button:</strong> Resubscribe to Paid<br />
+<strong>Under button:</strong> $14.99/month including tax (your local currency may be shown at checkout)</p>
+<h3>Inline, when trying to add an application (Free, at or over 5)</h3>
+<blockquote>
+<p>Free includes 5 applications in total, and you've used them all. Your existing applications are safe and you can keep editing them. [Upgrade to Paid] to add more.</p>
+</blockquote>
+<h3>Inline, when trying to add a CV Version (Free, at or over 2)</h3>
+<blockquote>
+<p>Free includes up to 2 CV Versions at a time. Remove one, or [upgrade to Paid] to add more. Your existing CV Versions are safe.</p>
+</blockquote>
+<h3>Paid fair-use cap reached (1,000 applications or 50 CV Versions)</h3>
+<blockquote>
+<p>You've reached the fair-use limit for Paid ([1,000 applications / 50 CV Versions]). Nothing has been deleted. Please contact [contact email] and we'll work out a sensible way forward with you.</p>
+</blockquote>
+<h2>8. Delete account</h2>
+<p>Shown in the Delete account card. The Paid options appear only when the user has an active Paid plan.</p>
+<h3>Warning (Paid)</h3>
+<p><strong>Title:</strong> You have Paid until [next billing date]<br />
+<strong>Body:</strong> Choose how you'd like to delete your account. Export your data and download any CV files you want to keep first.</p>
+<p><strong>Option 1 (recommended): Delete at the end of my paid period</strong><br />
+Your Paid plan won't renew. You can keep using InterviewAlpha until [next billing date]. Then your account and all your data, including every CV file, will be deleted automatically. You can cancel this any time before then from this page.<br />
+<strong>Button:</strong> Schedule deletion for [date]</p>
+<p><strong>Option 2: Delete everything now</strong><br />
+Your account is deleted straight away and your Paid plan ends now. You lose the remaining [n] days, with no refund.<br />
+[Within 14 days variant: You're within 14 days of starting Paid, so you'll be refunded [amount] to your original payment method.]<br />
+<strong>Confirm:</strong> Type DELETE to confirm · <strong>Button:</strong> Delete everything now</p>
+<h3>Warning (Free)</h3>
+<p><strong>Title:</strong> Delete your account?<br />
+<strong>Body:</strong> Your account, applications, notes, CV Versions and CV files will be deleted. Export your data first if you want to keep it.<br />
+<strong>Confirm:</strong> Type DELETE to confirm · <strong>Button:</strong> Delete account</p>
+<h3>Line under every delete option</h3>
+<blockquote>
+<p>You'll have 30 days to change your mind: we can recover your account if you contact us at [contact email] within 30 days. After that, your data is permanently deleted. Want it gone straight away? Choose "Permanently delete now" or email [contact email].</p>
+</blockquote>
+<p><strong>Text link:</strong> Permanently delete now (skip the 30-day window)<br />
+<strong>Permanent delete confirm:</strong> This permanently deletes your account and data straight away. It can't be undone or recovered. Type DELETE to confirm · <strong>Button:</strong> Permanently delete now</p>
+<h3>Confirmations</h3>
+<p><strong>Scheduled (banner while signed in):</strong></p>
+<blockquote>
+<p>Your account will be deleted on [date], when your Paid plan ends. [Cancel deletion] · [Export your data]</p>
+</blockquote>
+<p><strong>Deleted (page shown after deletion, plus email):</strong></p>
+<blockquote>
+<p>Your InterviewAlpha account has been deleted. If this was a mistake, contact [contact email] by [date + 30] and we can recover it. After that, your data will be permanently deleted. To have it permanently deleted now, reply to this email or contact [contact email].</p>
+</blockquote>
+<p><strong>Permanently deleted:</strong></p>
+<blockquote>
+<p>Your InterviewAlpha account and data have been permanently deleted. This can't be undone.</p>
+</blockquote>
+<p><strong>Note line:</strong> Stripe and Link keep their own payment records under their own policies.</p><div class="foot"><b>Legal review:</b> open items for a solicitor or verification are listed on the <a href="review-notes.html">review notes page</a>.</div></main></body></html>

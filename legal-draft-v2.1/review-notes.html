@@ -1,0 +1,78 @@
+<!doctype html><html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow"><title>DRAFT: Review notes | InterviewAlpha</title><style>
+:root{--g:#214D3C;--g2:#2C6A4A;--gl:#E8F0EB;--ink:#172D26;--mut:#5B6660;--line:#D7E6DC}
+*{box-sizing:border-box}body{margin:0;font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:#1f2a25;background:#F7F8F6}
+.banner{background:#7A2E0E;color:#fff;text-align:center;padding:10px 16px;font-weight:600;font-size:14px;position:sticky;top:0;z-index:5}
+header{background:#fff;border-bottom:1px solid var(--line)}header .in{max-width:780px;margin:0 auto;padding:14px 20px;display:flex;gap:18px;align-items:center;flex-wrap:wrap}
+.logo{font-weight:700;color:var(--g);text-decoration:none;margin-right:auto}header nav a{color:var(--mut);text-decoration:none;font-size:14px}header nav a.on,header nav a:hover{color:var(--g)}
+main{max-width:780px;margin:28px auto 60px;padding:32px 36px;background:#fff;border:1px solid var(--line);border-radius:16px}
+@media(max-width:640px){main{margin:0;border-radius:0;padding:24px 18px}}
+h1{color:var(--ink);font-size:30px;line-height:1.2;margin:0 0 12px}h2{color:var(--g);font-size:20px;margin:34px 0 8px;padding-top:6px;border-top:1px solid var(--gl)}h3{color:var(--ink);font-size:16px;margin:22px 0 6px}
+a{color:var(--g2)}table{border-collapse:collapse;width:100%;font-size:14.5px;margin:12px 0}th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}th{background:var(--gl);color:var(--ink)}
+blockquote{margin:12px 0;padding:12px 16px;background:var(--gl);border-left:4px solid var(--g);border-radius:6px}blockquote p{margin:4px 0}
+code{background:#F1F3F1;padding:1px 5px;border-radius:4px;font-size:13.5px}li{margin:3px 0}
+.foot{margin-top:40px;padding:14px 16px;background:#FFF7E8;border:1px solid #F1D9A8;border-radius:10px;font-size:14px}
+.changed{margin:18px 0;padding:14px 18px;background:var(--gl);border:1px solid var(--line);border-left:4px solid var(--g);border-radius:10px;font-size:15px}.changed ul{margin:6px 0 0;padding-left:20px}
+.cards{display:grid;gap:12px;margin-top:18px}.cards a{display:block;padding:16px 18px;border:1px solid var(--line);border-radius:12px;text-decoration:none;color:var(--ink)}.cards a:hover{border-color:var(--g);background:var(--gl)}.cards b{color:var(--g)}
+</style></head><body>
+<div class="banner">DRAFT v2.1 for review, not published. Not legal advice; pending Tom's approval and solicitor review.</div>
+<header><div class="in"><a class="logo" href="index.html">InterviewAlpha</a><nav style="display:flex;gap:14px;flex-wrap:wrap"><a href="index.html">Overview</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a><a href="pricing-cancellation-copy.html">Pricing and cancellation copy</a><a href="review-notes.html" class=on>Review notes</a></nav></div></header>
+<main><h1>Legal review notes and open items (v2.1)</h1>
+<p><strong>Prepared:</strong> 23 October 2026 · <strong>Version:</strong> v2.1 (v2 approved by Tom, pending the solicitor items) · <strong>Status:</strong> draft for Tom's approval and solicitor review. Nothing here is published on interviewalpha.app.</p>
+<h2>A0. Decided in v2.1</h2>
+<ol>
+<li><strong>Statement descriptor: decided.</strong> LINK.COM* INTERVIEWALPHA, used in the Terms, Privacy Policy, Checkout copy, confirmation email and billing FAQ. Make sure the live Stripe setting matches exactly.</li>
+<li><strong>Local-currency wording: decided.</strong> Price appears everywhere exactly as "$14.99/month including tax (your local currency may be shown at checkout)", which deals with Adaptive Pricing (D1). Buttons no longer repeat the price. Still set the Stripe Price to tax-inclusive (D2).</li>
+<li><strong>Deleting while on Paid: decided</strong> (was [PROPOSED] in v2). Cancel at period end, access continues, then automatic deletion; or "delete everything now", forfeiting the remaining time. [PROPOSED] tags removed from Terms s9, Privacy and the copy page.</li>
+<li><strong>Refunds and disputes.</strong> Terms s5 now says Stripe, as merchant of record, may issue refunds or settle disputes under its own terms, without affecting statutory rights. The "stays on Paid while we review" line is kept and framed as our account-access decision, separate from Stripe's handling of the payment.</li>
+<li><strong>Free CV Versions</strong> now read "up to 2 CV Versions at a time" (5 applications in total unchanged).</li>
+</ol>
+<h2>A1. New open items in v2.1</h2>
+<ol>
+<li><strong>30-day recovery and erasure: [mechanics TBC].</strong> After any deletion, data stays recoverable for 30 days, then is permanently purged; a "permanently delete now" option (or email to [contact email]) skips the window for UK GDPR erasure requests. Mechanics are still being designed, so the customer text is short. To settle: soft-delete flag and hiding during the window, how recovery is requested and verified (copy says contact [contact email]), the purge job, what happens to the Stripe customer and CV files in storage, and making sure "permanently delete now" also covers backups (or that backups expire within [30] days and are never restored for that user). Solicitor: confirm a 30-day recovery default is compatible with Article 17 "without undue delay" given the immediate option, and that the scheduled-deletion wording is fair.</li>
+<li><strong>GitHub as a processor.</strong> Added to the Privacy processor table: Tom's private GitHub repository stores a weekly encrypted database backup. GitHub processes data in the US; it is named in the International transfers section with the others. Check GitHub's DPA and transfer mechanism (UK-US Data Bridge or IDTA/Addendum), who holds the encryption key, and that the repository stays private with limited access.</li>
+<li><strong>Backup retention [30] days.</strong> Aligned to the 30-day recovery window (was [14] days in v2). Placeholder until the backup job is built; weekly backups kept for 30 days means up to about 5 copies. Confirm Supabase's own retention on the chosen plan doesn't exceed it.</li>
+</ol>
+<h2>A. Resolved in v2</h2>
+<ol>
+<li><strong>Merchant of record: confirmed in test mode, pending live verification.</strong> Stripe Managed Payments is set up and Stripe (through Link) is the merchant of record and handles tax. The "either way" fallback where InterviewAlpha is the seller has been removed from the Terms and Privacy Policy. <em>Flag:</em> the drafts are only correct while Managed Payments stays enabled. If it is ever switched off, or live mode differs from test mode, the payment, tax, refund and privacy wording must be rewritten before any sale (and UK VAT, EU OSS and US sales tax become InterviewAlpha's problem).</li>
+<li><strong>Age.</strong> The 18+ requirement has been removed and no other age limit invented. The Terms only say you need to be able to pay with a valid payment card or payment method in your own name to buy Paid. See B4 for the remaining question.</li>
+<li><strong>Price display.</strong> Monthly only, tax-inclusive USD. Wording updated in v2.1 (A0.2). See D1 and D2 for the Stripe settings that must match.</li>
+<li><strong>Insights promise removed.</strong> No "longer history and filtering on Insights" (or similar) appears in any draft. The sign-up page code still says it (D6).</li>
+<li><strong>Plan name.</strong> "Full" renamed to "Paid" throughout the drafts.</li>
+<li><strong>Fair use.</strong> Paid shown as unlimited with a stated fair-use cap of 1,000 applications and 50 CV Versions (Terms s4), contact first, never delete data.</li>
+<li><strong>Disputes.</strong> An account stays on Paid while Tom reviews a dispute; no automatic downgrade (Terms s5, Account copy).</li>
+</ol>
+<h2>B. Still needs a solicitor</h2>
+<ol>
+<li><strong>Trader name and geographic address.</strong> CCR 2013 Sch 2 and E-Commerce Regs 2002 reg 6 require the trader's identity, a geographic address and email. With Stripe as merchant of record, confirm what InterviewAlpha must still disclose as the service provider. Placeholders: [contact email], [postal address].</li>
+<li><strong>14-day cancellation with Stripe as merchant of record.</strong> The 14-day handling (immediate start on express request, refund minus a proportionate amount, model form) is kept. Stripe's terms govern the consumer sale contract, and the Stage 3 proposal notes Stripe applies regional cooling-off rules itself and may refund customers under its own terms (including within 60 days, and without Tom's approval after 48 hours). Confirm: who owes the cancellation right to the consumer (Stripe as seller, InterviewAlpha as service provider, or both), whether our consent checkbox and confirmation email are still needed or duplicate Stripe's, and whether Terms s6 and s7 conflict with Link's consumer terms.</li>
+<li><strong>DMCC Act 2024 subscription rules from 1 January 2027</strong> (draft Consumer Subscription Contracts regulations and guidance published 19 October 2026): pre-contract information format, reminder notices, easy online cancellation, renewal cooling-off and refund rules. Check whether these fall on Stripe as seller, on InterviewAlpha, or both, and review Checkout copy, cancellation flow and Terms s5 to s8 before January.</li>
+<li><strong>Minimum age and children's data.</strong> No age limit is stated. UK GDPR sets 13 as the age of digital consent for information society services where consent is the lawful basis (ours is mainly contract and legitimate interests). Stripe/Link and card issuers have their own age rules for payment. Confirm whether InterviewAlpha needs a minimum age, a children's data position, or anything under the ICO Children's Code.</li>
+<li><strong>"Unlimited" with a fair-use cap.</strong> The Terms now state the 1,000 applications and 50 CV Versions cap. CAP Code rules only allow "unlimited" where fair use affects very few, moderate users and the limits are clear; check ad and landing page wording (for example "Unlimited, fair use applies" with a link).</li>
+<li><strong>ICO data protection fee.</strong> Placeholder [ICO registration number].</li>
+<li><strong>Liability cap.</strong> Greater of £100 or 12 months' fees. Check fairness under CRA 2015.</li>
+<li><strong>International transfers.</strong> Confirm provider regions and mechanisms (Supabase, Vercel or replacement host, Upstash iad1 US, Resend, OpenAI). Stripe and Link are now independent controllers, not our processors.</li>
+<li><strong>Special category and third-party data</strong> in CVs and notes: confirm Article 9 position and controller status for recruiter/referee details.</li>
+<li><strong>Retention defaults are proposals.</strong> Backups [30] days (see A1.3), logs [30] days, emails [2] years. Billing and tax records are now kept by Stripe/Link as seller; confirm InterviewAlpha needs no tax records of its own beyond income records for self-assessment (HMRC requires sole traders to keep business records for at least 5 years after the 31 January filing deadline). The draft says our plan record is deleted with the account.</li>
+<li><strong>Transfer to a successor company, Scotland/NI carve-out, help assistant lawful basis:</strong> unchanged from v1; confirm.</li>
+</ol>
+<h2>C. Deletion design</h2>
+<ol>
+<li><strong>Deleting while on Paid: decided in v2.1</strong> (Terms s9, Privacy retention, Account copy s8). Originally proposed in v2. Two options: delete at the end of the paid period (cancel at period end, keep access, then automatic deletion, can be cancelled) or "Delete everything now" (no refund, except within 14 days). Easy to adjust. This contradicts the Stage 3 Stripe proposal (Decision N2), which cancels immediately with no refund. If adopted, the build needs a scheduled-deletion job, a <code>deletion_scheduled_for</code> field, <code>cancel_at_period_end</code> on the Stripe subscription, and a "Cancel deletion" path. Data must still be deleted when the period ends even if Stripe events are missed.</li>
+</ol>
+<h2>D. New issues found in the repo (Stage 3 proposal and code)</h2>
+<ol>
+<li><strong>Adaptive Pricing is always on with Managed Payments</strong> (Stage 3 proposal). Customers may see a local-currency price at checkout, which conflicts with showing only "$14.99/month including tax". Check what UK customers actually see and whether our pages need "Charged in your local currency where available" or similar. <em>Handled in v2.1 by the local-currency wording (A0.2).</em></li>
+<li><strong>Tax-inclusive must be set on the Stripe Price.</strong> The default adds tax on top. If not changed, "$14.99/month including tax" would be wrong and could be drip pricing.</li>
+<li><strong>Statement descriptor:</strong> now decided as LINK.COM* INTERVIEWALPHA (A0.1).</li>
+<li><strong>Stripe can refund without Tom.</strong> Stripe may issue refunds under its own terms; Terms s6 says this isn't affected.</li>
+<li><strong>Vercel Hobby plan forbids commercial use and payments.</strong> Decision N3 (Vercel Pro about $20/month, or Netlify Free). If the host changes, update the processor list in the Privacy Policy.</li>
+<li><strong>Repo copy still uses the old name and "coming soon".</strong> <code>src/lib/plans.ts</code> (<code>PAID_TIER_NAME</code>, <code>PAID_PRICE_LABEL "$14.99/mo"</code>, coming soon flags), <code>signup-tiers.tsx</code> (old plan name and the Insights promise), the sign-up page, <code>upgrade-nudge</code>, and the Ask InterviewAlpha knowledge base ("billing not available yet") all need updating to "Paid", "$14.99/month including tax" and no Insights promise before launch.</li>
+<li><strong>Correction to v1:</strong> v1 said Ask InterviewAlpha was disabled in Production. That was based on a stale local branch. It has been live in production since 20 October 2026. The Privacy Policy wording ("if you use Ask InterviewAlpha") is correct either way.</li>
+<li><strong>Backups.</strong> Supabase Free has no daily backups. Weekly encrypted backup to a private GitHub repository is now decided; GitHub is in the processor list (A1.2) and retention is [30] days (A1.3).</li>
+<li><strong>Deleting Link customer data moves the account to Free</strong> (proposal: <code>customer.deleted</code> handling). Consistent with the drafts; nothing is deleted on our side.</li>
+<li><strong>Applications still can't be deleted individually,</strong> so a downgraded user over 5 can only add new ones by resubscribing. The drafts say exactly this. CV Version removal is still a soft delete (file kept until account deletion), as the Privacy Policy says.</li>
+<li><strong>Failed payments:</strong> proposal keeps Paid for up to about 21 days of Stripe retries before moving to Free. Drafts say "for a period" rather than a number.</li>
+<li><strong>Free limit triggers</strong> still assume every account is Free; they must become plan-aware (and the 1,000/50 Paid cap enforced) before launch.</li>
+</ol></main></body></html>
