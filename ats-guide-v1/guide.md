@@ -1,62 +1,72 @@
 ---
-title_tag: ATS-friendly CV: what screening software really does
-meta_description: Learn how CV screening software reads your CV, what to fix before applying, and which ATS myths to ignore. Includes a free UK checklist.
-h1: How to get your CV past automated screening software
+title_tag: ATS-friendly CV or resume: what screening software does
+meta_description: Learn how screening software reads a CV or resume, what to fix before you apply, and which ATS myths to ignore. Includes a free checklist.
+h1: How to get your CV or resume past automated screening software
 slug: /guides/cv-screening-software
 robots: noindex,nofollow,noarchive
 preview: true
-estimated_reading_time: 14 minutes
-primary_search_phrase: how to get your CV past ATS
+estimated_reading_time: 19 minutes
+primary_search_phrase: how to get your CV or resume past ATS
 related_search_phrases:
-  - ATS friendly CV UK
-  - how ATS CV screening works
-  - PDF or Word CV for ATS
-  - ATS CV test free
+  - ATS friendly resume
+  - ATS friendly CV
+  - how ATS screening works
+  - PDF or Word resume for ATS
   - CV screening software tips
 ---
 
-# How to get your CV past automated screening software
+# How to get your CV or resume past automated screening software
 
-**Estimated reading time: 14 minutes**
+**Estimated reading time: 19 minutes**
 
-If you are worried that a robot will reject your CV before anyone sees it, separate the parse from the decision. Screening software often reads your document into fields such as your name, work history and skills. When that reading fails, the visible result is often blank or jumbled fields. In some systems the original file stays attached, so a person can still open it and fill in missing details by hand. That is one kind of setup, not a description of every employer.
+An applicant tracking system, usually shortened to ATS, is software an employer uses to collect and manage job applications. It keeps each application in one place. Depending on the setup, it may also help staff search the applications, read a file into fields, or filter some of them. It is a database and a workflow. It is not one robot that makes the same decision at every employer.
 
-You cannot see every employer's screening settings, and no CV format can guarantee that you will progress. Focus on what you can check: a readable file, relevant evidence and accurate application answers.
+The worry is easy to understand. Online job-search advice often says the software rejects your CV or resume before a person sees it, and you cannot look up that employer's settings to check. Unseen rejection is possible in some setups. It is not what every system does. Some products mainly store applications for a person to review. Some can search for a word, compare skills with the vacancy, or apply a rule to an answer on the form. A file the software reads badly, a missing requirement, and an eligibility answer are different problems.
 
-That does not mean formatting is unimportant. It means your task is practical rather than mysterious: make the document easy to extract, show that you fit the role, and give the person reviewing it useful evidence. You do not need a secret hack.
+This guide uses CV and resume for the same standard job application. Employers in the United States and Canada usually say resume. Employers in the United Kingdom, Ireland, much of Europe, Australia and New Zealand usually say CV. An academic CV, for research or teaching, is a different document and is often longer. The checks below are for a standard application. Where a local habit differs, the guide says so.
 
-## What CV screening software actually does
+No format guarantees that you will progress. You can still make the document easy to extract, show that you fit the role, and give the person reviewing it useful evidence. You do not need a secret hack. The next sections cover what the software may do, four points that are easy to misunderstand, a practical checklist, a plain-text test, and what to include or leave out when the country or the employer changes the expectation.
 
-An applicant tracking system, usually shortened to ATS, is a database and a recruitment workflow. Depending on the employer and its setup, it may:
+## What screening software may do
 
-1. **Parse your CV.** It turns the document into searchable fields such as employers, dates and job titles.
+[CareerOneStop, a careers site sponsored by the US Department of Labor, describes an applicant tracking system](https://www.careeronestop.org/JobSearch/Resumes/resumes.aspx) as software that receives applications, sorts them, and tracks each candidate's status. It says an employer can filter for an essential requirement, such as a skill, a credential, or years of experience. That description is about hiring in the United States. It is not a map of every product or every country.
+
+Depending on the employer and its setup, screening software may:
+
+1. **Parse your CV or resume.** It turns the document into searchable fields such as employers, dates and job titles.
 2. **Help recruiters search or match candidates.** Some systems look for an exact word, some also retrieve related terms, and some compare skills with the requirements of a vacancy. The criteria and process depend on the employer.
 3. **Present applications for review.** Some workflows give a person a stage at which to advance or reject an application. Keeping applications in one place does not tell you how much human review each one receives.
-4. **Apply rules to application answers.** An employer can set a rule that rejects an application because of an answer to a custom question, such as an eligibility question. That is a configuration choice. It is not proof that every CV is rejected automatically. Accurate answers matter as much as the file itself.
+4. **Apply rules to application answers.** An employer can set a rule that rejects an application because of an answer to a custom question, such as an eligibility question. That is a configuration choice. It is not proof that every document is rejected automatically. Accurate answers matter as much as the file itself.
 
 Not every employer uses all of them. No single screening machine makes the same decision everywhere.
 
 ## Four things worth knowing
 
+Online advice tends to bunch the worry into four questions. Is a messy file an automatic rejection? Is there one rejection percentage for every employer? Which file type should you send? Does hiding keywords help? The notes below separate those questions from what you can actually check.
+
 ### Check extracted details before submitting
 
-If a parser cannot read your CV cleanly, expect blank or jumbled fields before you assume an instant rejection. In some systems an unsuccessfully parsed CV remains attached while missing information is entered manually. That behaviour is documented for particular products. It is not a promise about every employer, and it does not mean a formatting fault is harmless.
+If a parser cannot read your file cleanly, expect blank or jumbled fields before you assume an instant rejection. In some systems an unsuccessfully parsed document remains attached while missing information is entered manually. That behaviour is documented for particular products. It is not a promise about every employer, and it does not mean a formatting fault is harmless.
 
-If an application form fills in details from your CV, check them carefully. Missing or jumbled fields tell you that something needs correcting. They do not tell you whether a person will review the file or how the employer will decide. Do not assume either an automatic rejection or a manual rescue.
+If an application form fills in details from your file, check them carefully. Missing or jumbled fields tell you that something needs correcting. They do not tell you whether a person will review the file or how the employer will decide. Do not assume either an automatic rejection or a manual rescue.
 
-A clear CV and accurate form are worth aiming for. Make your information easy to find rather than relying on someone else to repair it.
+A clear document and an accurate form are worth aiming for. Make your information easy to find rather than relying on someone else to repair it.
 
-### Do not assume a universal rejection rate
+### The rejection percentage in online advice is not your odds
 
-A single headline percentage cannot tell you your chance of rejection at a particular employer. No representative published study establishes one rejection rate for every CV and every employer. A percentage repeated in sales material is not that measurement. Concentrate on the vacancy's actual requirements rather than trying to beat an assumed pass rate.
+Online job-search advice and social posts often claim that screening software rejects a fixed share of applications before anyone reads them. The claim is presented as if one percentage applied to every employer. That is the idea behind the worry above. It is not a measurement of your chances at a particular employer.
 
-[Harvard Business School, a university business school, summarises its Hidden Workers research](https://www.library.hbs.edu/working-knowledge/how-to-tap-the-talent-automated-hr-platforms-miss): restrictive hiring filters can exclude capable candidates. This 2021 study surveyed workers and executives in the US, UK and Germany. It is not a measurement of the rejection rate for every CV or employer.
+No representative published study establishes one rejection rate for every CV or resume and every employer. A percentage that circulates in advice is not that study. Read the vacancy's requirements instead of trying to beat an assumed pass rate.
+
+[Harvard Business School, a university business school, summarises its Hidden Workers research](https://www.library.hbs.edu/working-knowledge/how-to-tap-the-talent-automated-hr-platforms-miss): restrictive hiring filters can exclude capable candidates. This 2021 study surveyed workers and executives in the US, UK and Germany. It is not a measurement of the rejection rate for every document or every employer.
 
 ### Let the application instructions decide the file format
 
 Do not choose a file format just because someone says it always wins. "Never send a PDF" and "PDF is always safest" are both too absolute.
 
-Several widely used screening products accept a text-based PDF and a Word document for at least some features. A photograph of a CV, or another image-only file such as a JPG or PNG, may contain no text layer to extract. Supported formats can also differ from one feature to another inside the same product. That is why the application form is a better guide than a general rule.
+Several widely used screening products accept a text-based PDF and a Word document for at least some features. A photograph of the page, or another image-only file such as a JPG or PNG, may contain no text layer to extract. Supported formats can also differ from one feature to another inside the same product. That is why the application form is a better guide than a general rule.
+
+If the posting does not name a format, [CareerOneStop, a careers site sponsored by the US Department of Labor, says a Word, PDF, or plain-text file can be used, and that a scanned image will not be recognised](https://www.careeronestop.org/JobSearch/Resumes/resumes.aspx). That is guidance for applications in the United States. It is not a rule for every country.
 
 If several formats are accepted, choose a simple document that you can inspect and test. The plain-text check below can reveal obvious problems, but it cannot tell you how every employer's software will handle the file.
 
@@ -64,26 +74,26 @@ The sensible choice is straightforward:
 
 - If the employer asks for a format, use it.
 - If the employer accepts both, try a text-based PDF or DOCX and check it with the plain-text test below.
-- Do not send a photograph of your CV, a scan with no usable text layer, or a design exported as one large image.
+- Do not send a photograph of your document, a scan with no usable text layer, or a design exported as one large image.
 - Check what the form extracts before you submit it.
 
 There is no universal winner between PDF and Word.
 
 ### Keep important terms visible and honest
 
-Do not hide the job advert or a list of keywords in white text, or colour them so they disappear on the page. Hidden text adds no honest evidence of your suitability. Extracted text can still include those words, so a reviewer may see them and treat the CV as an attempt to manipulate the process. Use important terms visibly, attached to things you have actually done.
+Do not hide the job advert or a list of keywords in white text, or colour them so they disappear on the page. Hidden text adds no honest evidence of your suitability. Extracted text can still include those words, so a reviewer may see them and treat the document as an attempt to manipulate the process. Use important terms visibly, attached to things you have actually done.
 
-## A practical checklist for an ATS-friendly CV
+## A practical checklist for an ATS-friendly CV or resume
 
 Think of this as two checks happening together. Can software extract the document? Can a person quickly see why you are worth interviewing? A pretty template cannot answer the second question for you, and a keyword list cannot answer it either.
 
 ### 1. Begin with the job, not a generic template
 
-Read the essential requirements first. Then look at desirable criteria and the main responsibilities. Select the experience on your CV that provides evidence against them.
+Read the essential requirements first. Then look at desirable criteria and the main responsibilities. Select the experience that provides evidence against them.
 
 Tailoring does not mean rewriting your entire history for every vacancy. It means choosing and framing relevant truths. If the advert names a system, qualification or technical skill you have used, use its proper name where it naturally belongs. If you have not used it, do not add it to fill a gap.
 
-The [National Careers Service, the government's careers advice service in England, recommends tailoring your CV to the job](https://nationalcareers.service.gov.uk/careers-advice/cv-sections).
+The same practical idea appears in official advice for more than one country. The [National Careers Service, the government's careers advice service in England, recommends tailoring your CV to the job](https://nationalcareers.service.gov.uk/careers-advice/cv-sections). [CareerOneStop, sponsored by the US Department of Labor, says to customise a resume for the posting or to use its terms for qualifications you have](https://www.careeronestop.org/JobSearch/Resumes/resumes.aspx). [Job Bank, the Government of Canada's employment service, says to tailor the resume to the position](https://www.jobbank.gc.ca/findajob/resources/write-good-resume). Each of those pages is about that country's job applications. None of them is a worldwide rule book. The task is still the same: match evidence to the vacancy in front of you.
 
 Repeated words in the advert can help you spot priorities, but there is no dependable rule for how many times to repeat a word. Some searches look for the exact term, some also find related terms, and some matching compares skills more broadly than a pasted phrase. Use the words where they accurately describe your experience. Map a requirement to work you have done. Do not paste the advert in to chase a quota.
 
@@ -97,7 +107,7 @@ Use the plain-text test below to look for scrambled or missing information. Do n
 
 ### 3. Use familiar headings and a consistent chronology
 
-"Work experience", "Education" and "Skills" are easier to recognise than invented section titles. Put your name and contact details in the document body. Use a professional email address and check any portfolio or profile links.
+"Work experience", "Education" and "Skills", or the local equivalents "Experience" and "Education", are easier to recognise than invented section titles. Put your name and contact details in the document body. Use a professional email address and check any portfolio or profile links.
 
 List recent work first. Give each role a clear employer, job title and date range, using the same month-and-year pattern throughout. If your internal title was unusual, you can clarify it in brackets without inflating it. "Customer assistant (checkout and service team)" is honest. "Customer experience director" is not, unless that was your actual role.
 
@@ -107,15 +117,15 @@ A sensible basic order is:
 - A short introduction, only if it adds useful role-specific context
 - Work experience, with recent roles first
 - Education and relevant training
-- Skills, with evidence elsewhere in the CV
+- Skills, with evidence elsewhere in the document
 
-Remove template instructions, fake employer names and placeholder text before sending. Placeholder names can be skipped during parsing, so they are not a harmless leftover, and they are not your history. The CV should describe your own experience, not the example that came with the template.
+Remove template instructions, fake employer names and placeholder text before sending. Placeholder names can be skipped during parsing, so they are not a harmless leftover, and they are not your history. The document should describe your own experience, not the example that came with the template.
 
 ### 4. Give the human reviewer evidence, not adjectives
 
 "Hard-working team player" claims a quality. "Resolved a backlog of customer queries while maintaining the team's service target" gives a reader something to assess. The strongest bullet points explain what you did, your contribution and the result.
 
-Use numbers where they are genuine and useful: a budget, a response time, an accuracy improvement, the number of people supported or a measurable service outcome. Not every useful achievement has a neat percentage. Do not invent one to satisfy a formula.
+Use numbers where they are genuine and useful: a budget, a response time, an accuracy improvement, the number of people supported or a measurable service outcome. Not every useful achievement has a neat percentage. Do not invent one to satisfy a formula. [Job Bank, the Government of Canada's employment service, tells applicants to show achievements rather than only list duties, and to use real numbers](https://www.jobbank.gc.ca/findajob/resources/write-good-resume). That is Canadian guidance. The editing point travels: a true result is more useful than an adjective, in any country.
 
 If an employment gap needs context, explain it briefly and neutrally. Use clear dates. Do not hide the gap behind vague dates and leave a reader to guess.
 
@@ -143,35 +153,37 @@ Look for:
 
 If you find a fault, return to the source document. Simplify the relevant layout, move contact details into the body, replace graphics with words, and export again. Then repeat the test.
 
-Finally, inspect the employer's application form. If it autofills your roles, dates or contact details incorrectly, correct those fields. Check the answers to eligibility and custom questions as carefully as the CV. The file and the form should tell the same truthful story.
+Finally, inspect the employer's application form. If it autofills your roles, dates or contact details incorrectly, correct those fields. Check the answers to eligibility and custom questions as carefully as the file. The file and the form should tell the same truthful story.
 
 If you use a third-party scanner, it may flag missing wording, but do not assume its score is the employer's pass mark. Use any suggestions as prompts to review your wording, not as a reason to add unsupported skills or chase a perfect score.
 
-## UK CV conventions: what to include and leave out
+## What to include and leave out
 
-Technical readability and local CV conventions are different subjects. Check what the employer expects, especially when applying in another country.
+Technical readability and local custom are different subjects. Page length, photographs, personal details, and even the words CV and resume are not the same across the United States, Canada, the United Kingdom, Ireland, Europe and Australia. Use the vacancy's instructions first. Where the posting is silent, follow the usual expectation for that role and that country. The notes below are examples from official guidance. They are not one template for every Western job market.
 
-**Length.** As a starting point for a conventional UK CV, aim for one or two focused pages, unless the employer asks for something different. Academic and specialist applications can have different expectations. There is no universal screening rule that a CV must fit on one page. Treat length as editing advice, not a software limit.
+**Length.** There is no universal screening rule that forces every application onto one page. Official editing advice still differs. [CareerOneStop, sponsored by the US Department of Labor, says keep a resume to 1 to 2 pages](https://www.careeronestop.org/JobSearch/Resumes/resumes.aspx). [Job Bank, the Government of Canada's employment service, says limit a resume to two pages](https://www.jobbank.gc.ca/findajob/resources/write-good-resume). The [National Careers Service, the government's careers advice service in England, says be clear and to the point](https://nationalcareers.service.gov.uk/careers-advice/cv-sections) and does not publish a page count on that CV page. An academic CV for research or teaching is a different document and is often longer than a standard job application. If the employer asks for a length, use that. These examples do not describe every country, including Australia and much of Europe, where the local expectation may differ again.
 
-**Photograph.** Leave it out for a conventional UK CV unless the particular process requires otherwise. A photo is not an ATS improvement.
+**Photograph.** A photo does not make a file easier for screening software to read. [Job Bank says a photo is not the norm in Canada, and that in some countries a photo may be acceptable](https://www.jobbank.gc.ca/findajob/resources/write-good-resume). Do not copy one country's habit into another. Follow the employer and the usual practice where you are applying.
 
-**Personal details.** The National Careers Service, the government's careers advice service in England, recommends leaving out your age, date of birth, marital status and nationality. Consider whether a town or broad location is sufficient rather than including a full street address. See its [CV guidance](https://nationalcareers.service.gov.uk/careers-advice/cv-sections).
+**Personal details.** What to leave off the document depends on the country. The National Careers Service says that, for a CV in England, you should not include age, date of birth, marital status or nationality. Job Bank says leave out details such as age and marital status, and never include a Social Insurance Number. Other countries ask for different details. A town, city or region is often enough when a full street address is not required. See the [National Careers Service CV guidance](https://nationalcareers.service.gov.uk/careers-advice/cv-sections) for England and [Job Bank's resume guidance](https://www.jobbank.gc.ca/findajob/resources/write-good-resume) for Canada.
 
-**Right to work.** Answer the employer's questions honestly. Adding your nationality to the CV is not a substitute for its right-to-work process.
+**Work status.** Answer the employer's questions honestly. The form may ask about right to work, work authorisation, or visa status, depending on the country. Putting a nationality on the document is not a substitute for that process.
 
-**Overseas qualifications.** Give helpful UK context or an established equivalence where relevant, so a reader does not have to guess what your qualification means.
+**Qualifications from another country.** Give the reader enough context to understand the qualification, including an established equivalence where you have one.
 
-**References.** Follow the employer's instructions. The National Careers Service advises against putting someone else's contact details on your CV; you can say references are available on request.
+**References.** Follow the employer's instructions. The National Careers Service says not to put someone else's contact details on a CV, and that you can say references are available on request. That sentence is England's guidance. Job Bank says keep references separate and provide them when they are requested. That sentence is Canada's guidance.
+
+**The word on the document.** Use the word the employer uses. Resume is usual in the United States and Canada. CV is usual in the United Kingdom, Ireland, much of Europe, Australia and New Zealand. The screening checks in this guide do not depend on which word you use.
 
 ## Your copyable pre-submit checklist
 
 Copy this list into your notes, or print the checklist section of this page. Use it for the final check, not as a reason to delay an otherwise good application.
 
 ```text
-CV SCREENING AND APPLICATION CHECKLIST
+CV OR RESUME SCREENING CHECKLIST
 
 [ ] I have read the essential and desirable criteria for this specific job.
-[ ] My CV gives truthful, relevant evidence against those criteria.
+[ ] My document gives truthful, relevant evidence against those criteria.
 [ ] Important skills and systems are named in natural sentences, not stuffed into a list.
 [ ] The document uses a simple reading order, familiar headings and a readable font.
 [ ] Important information is not trapped in images, text boxes, headers or footers.
@@ -181,15 +193,15 @@ CV SCREENING AND APPLICATION CHECKLIST
 [ ] I have followed the employer's requested file format.
 [ ] My PDF or DOCX contains selectable, correctly ordered text, not only an image.
 [ ] I have completed the plain-text paste test and fixed any obvious extraction problems.
-[ ] The application form's autofilled fields and custom answers match my CV.
+[ ] The application form's autofilled fields and custom answers match my document.
 [ ] My links work, my contact details are current and the file name is professional.
 [ ] I have proofread the file I am actually sending.
-[ ] For a conventional UK CV, I have checked length, photo and personal details against current guidance.
+[ ] I have checked length, photo, personal details and CV or resume wording against this employer's instructions and the usual expectations for this country and role.
 ```
 
 ## Learn from replies rather than chasing a perfect score
 
-No perfect CV will pass every employer's process. Different systems, vacancy criteria and human judgements sit behind each application. Remove avoidable friction, present relevant evidence and pay attention to what happens next.
+No perfect document will pass every employer's process. Different systems, vacancy criteria and human judgements sit behind each application. Remove avoidable friction, present relevant evidence and pay attention to what happens next.
 
 If one version earns more replies, that is useful information. Compare like with like where possible, and treat a small number of applications as an early indication rather than proof.
 
@@ -197,35 +209,37 @@ If one version earns more replies, that is useful information. Compare like with
 
 ## Frequently asked questions
 
-### What is an ATS-friendly CV?
+### What is an ATS-friendly CV or resume?
 
-An ATS-friendly CV is a document whose text and structure can be extracted reliably, while making your suitability clear to a human reviewer. It normally uses familiar headings, consistent dates, relevant skills and evidence of your work. There is no universal format that guarantees progression.
+An ATS-friendly CV or resume is a standard job application whose text and structure can be extracted reliably, while making your suitability clear to a human reviewer. It normally uses familiar headings, consistent dates, relevant skills and evidence of your work. There is no universal format that guarantees progression. An academic CV is a different document.
 
 ### Is PDF or Word better for an ATS?
 
-Follow the employer's instructions and accepted file types. Where both are accepted, a simple text-based PDF or DOCX can work: both are accepted for at least some features of widely used products. Avoid image-only documents, including scans and files such as JPG or PNG with no text layer, and review any extracted application fields before submitting. This is not a ranking of formats for every employer.
+Follow the employer's instructions and accepted file types. Where both are accepted, a simple text-based PDF or DOCX can work: both are accepted for at least some features of widely used products. For US postings that do not name a format, CareerOneStop says a Word, PDF, or plain-text file can be used. Avoid image-only documents, including scans and files such as JPG or PNG with no text layer, and review any extracted application fields before submitting. This is not a ranking of formats for every employer.
 
 ### Can ATS software read tables and columns?
 
 It depends on the system and the document. Complex tables and multiple columns increase the chance of a jumbled reading order or missing fields. As a practical starting point, try a single column and check the copied text. This test cannot certify compatibility with every employer's software, and a complex layout is not proof of an automatic rejection.
 
-### Do ATS systems automatically reject CVs?
+### Do ATS systems automatically reject applications?
 
 An employer can configure rules that act on answers to application questions. Other workflows include a person reviewing applications, search, and optional matching. A parser struggling with your document is not itself the same as automatic rejection. Automated filtering can also exclude candidates, as the Harvard Business School research discussed above shows. The setup depends on the employer. You cannot infer the decision from formatting alone.
 
-### How do I test my CV for ATS compatibility for free?
+### How do I test my CV or resume for ATS compatibility for free?
 
 Open the file, confirm that its words are selectable, then copy everything into a plain-text editor. Check the reading order, headings, dates and contact details. Review any autofilled fields in the real application form too. This finds common extraction faults, but cannot test every employer system.
 
-### How long should a UK CV be?
+### How long should a CV or resume be?
 
-For a conventional UK CV, one or two focused pages is a useful starting point unless the employer asks otherwise. Some academic or specialist applications need a different approach. There is no universal screening rule that forces every CV onto one page. This is practical editing advice, not an ATS page limit.
+There is no single length for the United States, Canada, the United Kingdom, Ireland, Europe and Australia, and there is no universal screening rule that forces every document onto one page. CareerOneStop, for the United States, says 1 to 2 pages. Job Bank, for Canada, says up to two pages. England's National Careers Service stresses a clear CV and does not give one global page count. An academic CV is often longer. If the employer names a length, use that. This is editing advice from those services, not an ATS page limit.
 
 ## Sources and independent research
 
-External references in this guide are limited to government guidance and university-led research. Practical points about parsing, file formats, search and application rules describe capabilities that some screening products document. They are not a description of every employer, and the layout and plain-text checks are not a certified test. Always follow the vacancy's instructions.
+External references in this guide are limited to government guidance and university-led research. Each one covers the country named beside it. Practical points about parsing, file formats, search and application rules also describe capabilities that some screening products document. They are not a description of every employer, and the layout and plain-text checks are not a certified test. Always follow the vacancy's instructions.
 
-- [National Careers Service: how to write a CV](https://nationalcareers.service.gov.uk/careers-advice/cv-sections). The government's careers advice service in England. Its guidance covers tailoring, readable formatting, work history and personal details.
-- [Harvard Business School: Hidden Workers research summary](https://www.library.hbs.edu/working-knowledge/how-to-tap-the-talent-automated-hr-platforms-miss). A university business school's summary of its 2021 research with Accenture, based on surveys of workers and executives in the US, UK and Germany. It examines exclusion through hiring filters, not the behaviour of every ATS or a universal CV rejection rate.
+- [National Careers Service: how to write a CV](https://nationalcareers.service.gov.uk/careers-advice/cv-sections). The government's careers advice service in England. Its CV page covers tailoring, readable formatting, work history, personal details to leave out, and references. It does not set the rules for other countries, and it does not give a page count.
+- [CareerOneStop: resumes](https://www.careeronestop.org/JobSearch/Resumes/resumes.aspx). A careers site sponsored by the US Department of Labor. Its resume page describes applicant tracking systems in US hiring, and covers tailoring, a 1 to 2 page length, and file formats when a posting does not specify one. It is not guidance for every country.
+- [Job Bank: how to write a good resume](https://www.jobbank.gc.ca/findajob/resources/write-good-resume). The Government of Canada's employment service. Its resume page covers a two-page limit, tailoring, achievements, photographs, personal details and references for job applications in Canada.
+- [Harvard Business School: Hidden Workers research summary](https://www.library.hbs.edu/working-knowledge/how-to-tap-the-talent-automated-hr-platforms-miss). A university business school's summary of its 2021 research with Accenture, based on surveys of workers and executives in the US, UK and Germany. It examines exclusion through hiring filters, not the behaviour of every ATS or a universal rejection rate.
 
 *Sources checked 7 November 2026. This is guidance, not a promise about an individual employer's recruitment process.*
