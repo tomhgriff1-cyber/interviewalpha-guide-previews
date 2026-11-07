@@ -10,15 +10,17 @@ Indexing and ranking are not guaranteed. Do not add third-party analytics or tag
 - [ ] Check existing InterviewAlpha guides and do not publish a second page with the same job to do.
 - [ ] Keep one clear topic. A related question can be a short section or a separate guide, not a stuffed aside.
 - [ ] Prefer original, useful examples and one action the reader can take. Label fictional examples as illustrative. Do not invent statistics, name real private people, or imitate a product screen.
-- [ ] Use official, academic, or government sources when a claim needs a citation. Say who the organisation is and which country or study the page covers. Do not present one country's rule as universal.
+- [ ] Use official, academic, or government sources when a claim needs a citation. Name the organisation, and keep the country or study in a compact source note. Do not repeat "this is not true everywhere" through the article. State a local difference only when it changes what the reader should do, such as length, a photograph, or personal details.
+- [ ] Design it as a practical editorial handbook: expressive serif headings, a readable body face, a measure near 60 to 68 characters, real whitespace, and a numbered chapter rhythm. Original artwork can open the piece. Do not ship a card grid, a dashboard, or labelled outline boxes and call it a redesign. Template packs are inspiration only. Do not copy or embed them.
 - [ ] No creator, vendor, or video-pack references in the reader-facing article. Practical findings can stay without those names.
 
 ## Draft and preview
 
 - [ ] Title states the topic in plain language. Meta description says what the reader will learn. No keyword stuffing and no promise of ranking.
 - [ ] One H1. H2s follow the order of the article. In-page links use those headings.
-- [ ] Essential advice is real HTML text. Diagrams add meaning. They are not a hero image with the article unchanged underneath.
-- [ ] Diagrams are original, lightweight, and responsive. Give each a visible caption and an accessible name. Do not bake the only copy of the advice into a picture.
+- [ ] Essential advice is real HTML text. Artwork has a text alternative. Do not bake the only copy of the advice into a picture.
+- [ ] The whole article has a magazine rhythm, including later chapters, the checklist, and the sources. Print should read as a handbook, not a shrunken desktop page.
+- [ ] Self-host the fonts you use, with `font-display: swap`, a licence file, and explicit image dimensions. Prefer the live brand faces only when the licence allows it.
 - [ ] Fictional examples are marked illustrative.
 - [ ] The page is readable on a narrow phone and on a desktop. Checklist controls still copy and print. Print hides site chrome, not the checklist text.
 - [ ] Related links point at real pages that have been opened and checked. Omit a link you have not checked.
