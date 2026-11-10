@@ -49,8 +49,6 @@ h1{margin:0 0 18px;font-size:clamp(40px,5.5vw,72px);line-height:1.02;font-weight
 .essay h3{margin:1.6em 0 .45em;font-size:26px;line-height:1.2;font-weight:600;letter-spacing:-.02em}
 .chapter{margin:0 0 64px;padding-top:8px}
 .chapno{margin:0 0 8px;font-family:var(--serif);font-style:italic;font-size:22px;color:var(--forest)}
-.open{background:var(--pale);margin:0 0 28px;padding:28px 28px 22px}
-.open h2{margin:0}
 .keep{margin:8px 0 8px;padding:8px 0 4px;border-top:1px solid var(--ink);border-bottom:1px solid var(--ink);font-size:26px;line-height:1.35;font-weight:600;letter-spacing:-.02em}
 .keep span{display:block;margin-bottom:6px;font-family:var(--sans);font-size:11px;font-weight:600;font-style:normal;letter-spacing:.16em;text-transform:uppercase;color:var(--forest)}
 ol.steps,ul.plain{margin:0 0 1.2em;padding-left:1.2em}
@@ -78,7 +76,8 @@ ol.lead li::before{content:counter(lead,decimal-leading-zero);position:absolute;
 .compare i{display:block;margin-bottom:2px;font-family:var(--sans);font-style:normal;font-size:11px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--forest)}
 .convention{margin:0 0 1.1em}
 .convention strong{font-weight:600}
-.worksheet{margin-top:12px;padding:8px 0 0;border-top:1px solid var(--ink)}
+.worksheet{margin:0;padding:0;border:0}
+.worksheet>.tools{justify-content:flex-end;margin:0 0 12px}
 .worksheet-head{display:flex;justify-content:space-between;gap:16px;align-items:end;margin-bottom:8px}
 .tools{display:flex;gap:8px;align-items:center;font-family:var(--sans)}
 .tools button{font-family:var(--sans);font-size:13px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;background:transparent;color:var(--forest);border:1px solid var(--forest);padding:8px 12px;cursor:pointer}
@@ -134,10 +133,9 @@ ol.lead li::before{content:counter(lead,decimal-leading-zero);position:absolute;
   h2,h3{break-after:avoid}
   h2{font-size:18pt}
   h3{font-size:14pt}
-  .open{background:#fff;border-top:1px solid #172D26;border-bottom:1px solid #172D26;padding:4mm 0}
   .keep{font-size:14pt}
   .cover-art{max-width:68mm}
-  .worksheet{break-before:page;border-top:none}
+  .chapter:has(.worksheet){break-before:page}
   .sheet li{font-size:11pt}
   a{color:inherit;text-decoration:none}
   .specimen,.pagelet{break-inside:avoid}
@@ -146,7 +144,7 @@ ol.lead li::before{content:counter(lead,decimal-leading-zero);position:absolute;
 <link rel="stylesheet" href="../shared/promo.css">
 </head>
 <body>
-<div class="preview-banner">PREVIEW v8, not live. Draft for Tom's review. Nothing has been sent to Dev.</div>
+<div class="preview-banner">PREVIEW v9, not live. Draft for Tom's review. Nothing has been sent to Dev.</div>
 <div class="edition">
 <header class="mast">
 <a class="brand" href="https://interviewalpha.app"><span class="mark" aria-hidden="true"></span>Interview<em>Alpha</em></a>
@@ -224,10 +222,8 @@ ol.lead li::before{content:counter(lead,decimal-leading-zero);position:absolute;
 </section>
 
 <section class="chapter" id="four-things-worth-knowing">
-<div class="open">
 <p class="chapno">02</p>
 <h2>Four things worth knowing</h2>
-</div>
 <h3 id="check-extracted-details-before-submitting">Check extracted details before submitting</h3>
 <p>If a parser cannot read your file cleanly, expect blank or jumbled fields before you assume an instant rejection. In some systems an unsuccessfully parsed document remains attached while missing information is entered manually. That behaviour is documented for particular products. It is not a promise about every employer, and it does not mean a formatting fault is harmless.</p>
 <p>If an application form fills in details from your file, check them carefully. Missing or jumbled fields tell you that something needs correcting. They do not tell you whether a person will review the file or how the employer will decide. Do not assume either an automatic rejection or a manual rescue.</p>
@@ -381,17 +377,14 @@ Software engineer<br>Northline<br>2022 to 2024
 <p class="convention"><strong>The word on the document.</strong> Resume is the usual word in the United States and Canada. CV is the usual word in the United Kingdom, Ireland, much of Europe, Australia and New Zealand. Use the word the employer uses. The checks in this guide do not depend on it.</p>
 </section>
 
-<section class="chapter worksheet" id="your-copyable-pre-submit-checklist">
-<div class="worksheet-head">
-<div>
+<section class="chapter" id="your-copyable-pre-submit-checklist">
 <p class="chapno">06</p>
 <h2>Your copyable pre-submit checklist</h2>
-</div>
+<div class="worksheet">
 <div class="tools">
 <button type="button" id="copy-checklist">Copy</button>
 <button type="button" id="print-checklist">Print</button>
 <span class="copy-status" id="copy-status" aria-live="polite"></span>
-</div>
 </div>
 <p>Copy this list into your notes, or print the worksheet. Use it for the final check, not as a reason to delay an otherwise good application.</p>
 <ol class="sheet" id="checklist-text">
@@ -414,6 +407,7 @@ Software engineer<br>Northline<br>2022 to 2024
 <aside class="ia-tip">
 <p><span><a href="https://interviewalpha.app/?utm_source=guides&utm_medium=article&utm_campaign=ats-guide-v1&utm_content=inline-2">InterviewAlpha</a> tip</span> Store that file in the CV vault once it is the one you will send. You can then see which applications used it.</p>
 </aside>
+</div>
 </section>
 
 <section class="chapter" id="learn-from-replies-rather-than-chasing-a-perfect-score">
