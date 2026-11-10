@@ -23,8 +23,6 @@ An applicant tracking system, usually shortened to ATS, is software an employer 
 
 The worry is easy to understand. Online job-search advice often says the software rejects your CV or resume before a person sees it, and you cannot look up that employer's settings to check. Unseen rejection is possible in some setups. It is not what every system does. Some products mainly store applications for a person to review. Some can search for a word, compare skills with the vacancy, or apply a rule to an answer on the form. A file the software reads badly, a missing requirement, and an eligibility answer are different problems.
 
-CV and resume, in this guide, mean the same standard job application. An academic CV, for research or teaching, is a different and often longer document.
-
 No format guarantees that you will progress. Make the document easy to extract, show that you fit the role, and give a reviewer useful evidence.
 
 **On this page**
@@ -107,9 +105,11 @@ Repeated words in the advert can help you spot priorities, but there is no depen
 
 ### 2. Use a simple layout with real text
 
-For a straightforward starting point, use a single-column document read from top to bottom, with contact details in the body. The page below is fictional. It shows places where words are often missed or reordered. It is not a guarantee about every screening system.
+For a straightforward starting point, use a single-column document read from top to bottom, with contact details in the body. The page below shows places where words are often missed or reordered. It is not a guarantee about every screening system.
 
-**Illustrative page. Alex Rivera is not a real person. Example Market is not a real employer.**
+**Where words get lost on the page**
+
+Jordan Hale, jordan.hale@example.invalid. Software engineer, Northline, 2022 to 2024. Python is drawn as a bar, and a star stands in for APIs.
 
 - Phone and email sit only in the page header.
 - A skill is shown as a bar and a star, not as words.
@@ -127,7 +127,7 @@ Use the plain-text test below to look for scrambled or missing information. Do n
 
 "Work experience", "Education" and "Skills", or the plain equivalents "Experience" and "Education", are easier to recognise than invented section titles. Put your name and contact details in the document body. Use a professional email address and check any portfolio or profile links.
 
-List recent work first. Give each role a clear employer, job title and date range, using the same month-and-year pattern throughout. If your internal title was unusual, you can clarify it in brackets without inflating it. "Customer assistant (checkout and service team)" is honest. "Customer experience director" is not, unless that was your actual role.
+List recent work first. Give each role a clear employer, job title and date range, using the same month-and-year pattern throughout. If your internal title was unusual, you can clarify it in brackets without inflating it. "Software engineer (payments API)" is honest. "Director of engineering" is not, unless that was your actual role.
 
 A sensible basic order is:
 
@@ -143,11 +143,11 @@ Remove template instructions, fake employer names and placeholder text before se
 
 **A requirement, and what to write**
 
-Illustrative only. Write the evidence line only if it is true.
+Write the evidence line only if it is true.
 
-- The vacancy asks for a retail stock system.
-- Leave out: "Hard-working team player."
-- Write, if it is true: "Used the shop stock system to clear a delivery before opening."
+- The vacancy asks for Python and PostgreSQL.
+- Leave out: "Passionate problem solver."
+- Write, if it is true: "Built internal APIs in Python and queried order data in PostgreSQL."
 
 The strongest bullet points explain what you did, your contribution and the result.
 
