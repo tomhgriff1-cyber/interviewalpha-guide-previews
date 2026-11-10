@@ -138,7 +138,7 @@ Percentages are a particular trap, because they look precise and hide the base. 
 
 If you rewrite a set of bullets, keep the old CV labelled and send one version at a time. Otherwise you cannot tell whether clearer evidence is what led to interviews. Rewriting the lines does not require a new tool. Comparing them does require not mixing the versions up.
 
-**InterviewAlpha tip.** Keep the old file and the new one as named versions. [The CV vault links each version to the applications that used it](https://interviewalpha.app/?utm_source=guides&utm_medium=article&utm_campaign=guide-achievements-without-numbers&utm_content=inline-3), so you can see which wording is getting interviews.
+**[InterviewAlpha](https://interviewalpha.app/?utm_source=guides&utm_medium=article&utm_campaign=guide-achievements-without-numbers&utm_content=inline-3) tip.** Keep the old file and the new one as named versions. The CV vault links each version to the applications that used it, so you can see which wording is getting interviews.
 
 For the file itself, put the new lines in ordinary text, under a role a person can scan. The [screening software guide](../ats-guide-v1/index.html) covers layout. Evidence that sits in a graphic is evidence a reviewer may never see.
 

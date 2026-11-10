@@ -32,7 +32,7 @@ It can make you fluent in the material you already have. That means the advert, 
 
 Start by opening the application you actually sent. People prepare against a CV they wish they had submitted. The interviewer may have the other file. Check the title you used, the tools you named, and any gap you already disclosed. Do not prepare from memory of the CV.
 
-**InterviewAlpha tip.** The version they have is the one attached to that application. [Open the card before you rehearse](https://interviewalpha.app/?utm_source=guides&utm_medium=article&utm_campaign=guide-interview-one-evening&utm_content=inline-1), and read the next action you wrote when you applied.
+**[InterviewAlpha](https://interviewalpha.app/?utm_source=guides&utm_medium=article&utm_campaign=guide-interview-one-evening&utm_content=inline-1) tip.** The version they have is the one attached to that application. Open the card before you rehearse, and read the next action you wrote when you applied.
 
 If the interview is the result of a run of silence, or of several interviews that are not converting, the evening is still for this conversation. The wider diagnosis can wait. [Finding where the search is stuck](../guide-stuck-search/index.html) is a calmer job for a day when you are not about to be asked about a project.
 
