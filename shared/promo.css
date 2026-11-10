@@ -1,5 +1,8 @@
 .ia-tip{margin:4px 0 1.4em;padding:2px 0 2px 18px;border-left:2px solid var(--forest);font-size:18px;line-height:1.45}
 .ia-tip span{display:block;margin-bottom:4px;font-family:var(--sans);font-style:normal;font-size:11px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--forest)}
+.ia-tip a{color:var(--forest);text-decoration-line:underline;text-decoration-thickness:1px;text-underline-offset:3px}
+.ia-tip a:hover{color:#16382b}
+.ia-tip a:focus-visible{outline:2px solid var(--forest);outline-offset:3px}
 .ia-rail{display:none}
 .ia-ad{margin:8px 0 36px}
 .ia-card{background:var(--pale);border:1px solid var(--forest);padding:16px 16px 18px}

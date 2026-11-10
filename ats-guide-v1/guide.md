@@ -238,7 +238,7 @@ No perfect document will pass every employer's process. Different systems, vacan
 
 If one version earns more replies, that is useful information. Compare like with like where possible, and treat a small number of applications as an early indication rather than proof.
 
-**InterviewAlpha tip.** Keep the versions apart, then look at which one is attached to the applications that moved. [Insights shows which CV versions are getting responses](https://interviewalpha.app/?utm_source=guides&utm_medium=article&utm_campaign=ats-guide-v1&utm_content=inline-3). It is a record, not a screening score, and it does not promise interviews. Free includes 5 applications and up to 2 CV versions, with no time limit and no card. There is a Paid plan when the search grows.
+**[InterviewAlpha](https://interviewalpha.app/?utm_source=guides&utm_medium=article&utm_campaign=ats-guide-v1&utm_content=inline-3) tip.** Keep the versions apart, then look at which one is attached to the applications that moved. Insights shows which CV versions are getting responses. It is a record, not a screening score, and it does not promise interviews. Free includes 5 applications and up to 2 CV versions, with no time limit and no card. There is a Paid plan when the search grows.
 
 ## Frequently asked questions
 

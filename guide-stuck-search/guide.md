@@ -157,7 +157,7 @@ You are here if suitable applications are going out and first conversations are 
 
 Some application forms ask for a statement against published criteria, which is common at public bodies, universities, charities, and other employers that score answers rather than only reading a CV. If that is the form you are filling in, a strong CV will not rescue a statement that misses half the criteria. Use [how to write a supporting statement](../guide-supporting-statement/index.html) for that shape of application.
 
-**InterviewAlpha tip.** Label the CV version you send, and keep that label on the application. [The CV vault shows which version is attached to which role](https://interviewalpha.app/?utm_source=guides&utm_medium=article&utm_campaign=guide-stuck-search&utm_content=inline-3). It will not invent a normal reply rate, because there is not one to invent.
+**[InterviewAlpha](https://interviewalpha.app/?utm_source=guides&utm_medium=article&utm_campaign=guide-stuck-search&utm_content=inline-3) tip.** Label the CV version you send, and keep that label on the application. The CV vault shows which version is attached to which role. It will not invent a normal reply rate, because there is not one to invent.
 
 ### What to test
 

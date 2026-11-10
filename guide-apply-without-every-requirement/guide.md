@@ -136,7 +136,7 @@ Skip when a condition is false and there is no route through it. Skip when you c
 
 If the form asks you to address criteria in a statement, do not hide a gap in a general paragraph about motivation. Give each essential criterion an example or a short, honest limit. [Writing a supporting statement](../guide-supporting-statement/index.html) shows how to cover the list. [Showing achievements without invented numbers](../guide-achievements-without-numbers/index.html) is how you fill the lines you do meet.
 
-**InterviewAlpha tip.** After a run of similar applications, look at which CV version you attached. [Insights shows which versions are getting responses](https://interviewalpha.app/?utm_source=guides&utm_medium=article&utm_campaign=guide-apply-without-every-requirement&utm_content=inline-4). It does not turn that into a pass rate.
+**[InterviewAlpha](https://interviewalpha.app/?utm_source=guides&utm_medium=article&utm_campaign=guide-apply-without-every-requirement&utm_content=inline-4) tip.** After a run of similar applications, look at which CV version you attached. Insights shows which versions are getting responses. It does not turn that into a pass rate.
 
 **06**
 
