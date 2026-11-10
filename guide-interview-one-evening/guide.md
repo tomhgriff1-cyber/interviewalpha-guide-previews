@@ -30,7 +30,9 @@ A full preparation plan assumes several days: research, practice out loud, a moc
 
 It can make you fluent in the material you already have. That means the advert, the CV you sent, any form or statement, three scenes from your work, one honest line on a gap, and a few questions that could only be asked of this employer. It cannot create a project you did not do, a tool you have not used, or a calm that comes from having told the stories several times. If a story is thin, leave it off the page. A quiet truthful answer beats a vivid one you cannot sustain past the first follow-up.
 
-Start by opening the application you actually sent. People prepare against a CV they wish they had submitted. The interviewer may have the other file. Check the title you used, the tools you named, and any gap you already disclosed. If you track applications, this is the moment to look at the record: which version went, and what you said the next action was. [InterviewAlpha](https://interviewalpha.app) keeps the application, the CV version, and the next action in one place, so the conversation matches what they received. If you do not use it, the same check takes five minutes in whatever notes you have. Do not prepare from memory of the CV.
+Start by opening the application you actually sent. People prepare against a CV they wish they had submitted. The interviewer may have the other file. Check the title you used, the tools you named, and any gap you already disclosed. Do not prepare from memory of the CV.
+
+**InterviewAlpha tip.** The version they have is the one attached to that application. [Open the card before you rehearse](https://interviewalpha.app/?utm_source=guides&utm_medium=article&utm_campaign=guide-interview-one-evening&utm_content=inline-1), and read the next action you wrote when you applied.
 
 If the interview is the result of a run of silence, or of several interviews that are not converting, the evening is still for this conversation. The wider diagnosis can wait. [Finding where the search is stuck](../guide-stuck-search/index.html) is a calmer job for a day when you are not about to be asked about a project.
 

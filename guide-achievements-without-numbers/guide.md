@@ -136,7 +136,9 @@ Leave the number out when:
 
 Percentages are a particular trap, because they look precise and hide the base. "Cut failed jobs" is weaker than "failed jobs on that pipeline went from most mornings to rare", if that is what you observed, and it is stronger than "reduced failures by 40 per cent" if you never calculated 40. Do not convert a hunch into a ratio on the way to the page.
 
-If you rewrite a set of bullets, keep the old CV labelled and send one version at a time. Otherwise you cannot tell whether clearer evidence is what led to interviews. [InterviewAlpha](https://interviewalpha.app) is a place to record the application, the CV version, and the next action, and to compare which version is getting interviews once you have a real set of similar applications. Rewriting the lines does not require a new tool. Comparing them does require not mixing the versions up.
+If you rewrite a set of bullets, keep the old CV labelled and send one version at a time. Otherwise you cannot tell whether clearer evidence is what led to interviews. Rewriting the lines does not require a new tool. Comparing them does require not mixing the versions up.
+
+**InterviewAlpha tip.** Keep the old file and the new one as named versions. [The CV vault links each version to the applications that used it](https://interviewalpha.app/?utm_source=guides&utm_medium=article&utm_campaign=guide-achievements-without-numbers&utm_content=inline-3), so you can see which wording is getting interviews.
 
 For the file itself, put the new lines in ordinary text, under a role a person can scan. The [screening software guide](../ats-guide-v1/index.html) covers layout. Evidence that sits in a graphic is evidence a reviewer may never see.
 

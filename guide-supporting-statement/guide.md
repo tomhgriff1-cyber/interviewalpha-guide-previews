@@ -145,7 +145,7 @@ How many words for each essential, each desirable, and a close, adding up to the
 
 8. I have saved a copy with the application.
 
-Saving the copy next to the application is the practical part. [InterviewAlpha](https://interviewalpha.app) can hold the application, the CV version that went with the statement, and the next action, so the examples you wrote are the ones you prepare from if they call.
+**InterviewAlpha tip.** Save the statement with the application, and name the CV version that went with it. [The card holds the role, the version, and the next action](https://interviewalpha.app/?utm_source=guides&utm_medium=article&utm_campaign=guide-supporting-statement&utm_content=inline-4).
 
 **07**
 
